@@ -3,11 +3,13 @@ About r-safetensors-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-safetensors-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/mlverse/safetensors, https://mlverse.github.io/safetensors/
+Home: https://mlverse.github.io/safetensors/
 
 Package license: MIT
 
 Summary: A file format for storing tensors that is secure (doesn't allow for code execution), fast and simple to implement. 'safetensors' also enables cross language and cross frameworks compatibility making it an ideal format for storing machine learning model weights.
+
+Development: https://github.com/mlverse/safetensors
 
 Current build status
 ====================
