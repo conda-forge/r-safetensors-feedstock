@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/safetensors_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/safetensors/safetensors_{{ version }}.tar.gz
-  sha256: 2cfd525fd3ffa0da637206f125370a3481a48749529e6405a7583d94d5af5006
+  sha256: 0cbaf03a421b1f673cb20438731d4221d37b79a14d09d0f69dcaff7d49b67af9
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
